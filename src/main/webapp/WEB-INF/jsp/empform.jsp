@@ -10,15 +10,15 @@
         body {
             display: flex;
             justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
+            /* align-items: center; */
+            margin-top: 80px;
+            height: 150%;
             font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
+            background-color: #666699;
         }
         
         #form {
-            background-color: #fff;
+            background-color: #c2c2d6;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -47,14 +47,14 @@
         }
         
         input[type="submit"] {
-            background-color: #39c1e9;
+            background-color: #666699;
             color: white;
             border: none;
             cursor: pointer;
         }
         
         input[type="submit"]:hover {
-            background-color: #31a8e8;
+            background-color: #8533ff;
         }
     </style>
 </head>
