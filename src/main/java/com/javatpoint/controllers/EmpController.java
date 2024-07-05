@@ -32,7 +32,7 @@ public class EmpController {
 
     @RequestMapping("/viewemp")
     public String viewemp(@RequestParam(defaultValue = "1") int page, Model m){
-        int pageSize = 10;
+        int pageSize = 5;
         List<Emp> list = dao.getEmployees();
         int totalItems = list.size();
         int totalPages = (int) Math.ceil((double) totalItems / pageSize);
